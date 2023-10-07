@@ -17,7 +17,9 @@ const Home = () => {
           <TypingEffect />
         </div>
         <div className="contact_icons">
-          <LinkedInIcon />
+          <a href="https://www.google.com/" target="_blank" rel="noreferrer">
+            <LinkedInIcon />
+          </a>
           <MailIcon />
           <GithubIcon />
         </div>
