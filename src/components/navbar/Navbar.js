@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import MenuRoundedIcon from "@mui/icons-material/MenuRounded";
 import "./header.css";
+import resume from "../../assets/pdf/Divyanshu_Resume.pdf";
 
 const Navbar = () => {
   const [showham, setShowham] = useState(false);
@@ -22,16 +23,17 @@ const Navbar = () => {
               <a href="#experience">Experience</a>
             </li>
             <li>
+              <a href="#contact">Contact</a>
+            </li>
+            <li className="donotshow">
               <a href="#about">About</a>
             </li>
           </ul>
         </div>
         <div className="resume">
           {/* download={resume} */}
-          <a href="#about">
-            <button variant="primary" className="button-68">
-              my resume
-            </button>
+          <a href={resume} download={resume}>
+            <button variant="primary">my resume</button>
           </a>
         </div>
         <div className="hamburger_menu">

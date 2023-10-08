@@ -1,4 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
 .card {
   height: 350px;
   width: 290px;
@@ -32,10 +31,6 @@
   align-items: center;
   justify-content: space-evenly;
   z-index: 2;
-}
-.card_a {
-  text-decoration: none;
-  color: inherit;
 }
 
 .Project_main {
@@ -72,54 +67,58 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: center;
   align-items: center;
+  justify-content: left;
   gap: 20px;
 }
 
 @media (max-width: 1165px) and (min-width: 1115px) {
   .card_sec {
     width: 70%;
+    justify-content: center;
   }
   .project_image_sec {
     width: 30%;
   }
 }
-@media (max-width: 1114px) {
+
+@media (max-width: 1114px) and (min-width: 751px) {
+  .Project_main {
+    padding: 3.5rem;
+    flex-direction: column-reverse;
+    gap: 10px;
+  }
   .Project_main img {
     display: none;
   }
   .card_sec {
     width: 100%;
-    order: 2;
+    justify-content: center;
   }
-  .Project_main {
-    flex-direction: column;
-  }
+
   .project_image_sec {
     width: 100%;
   }
-}
-@media (max-width: 1070px) and (min-width: 880px) {
-  .Project_main {
-    padding: 3.5rem;
-  }
-  .card_sec {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-  }
-  .card_a {
-    height: 350px;
-    width: 40%;
-  }
   .card {
-    width: 100%;
+    width: 40%;
     min-width: 290px;
   }
 }
-@media (max-width: 879px) and (min-width: 200px) {
+@media (max-width: 879px) {
+  .Project_main {
+    flex-direction: column-reverse;
+    gap: 10px;
+  }
+  .card_sec {
+    width: 100%;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 750px) and (min-width: 200px) {
+  .Project_main img {
+    display: none;
+  }
   .Project_main {
     padding: 2.5rem;
   }
@@ -127,17 +126,12 @@
     width: 100%;
     display: flex;
     flex-direction: column;
-  }
-  .card_a {
-    height: 350px;
-    display: flex;
-    align-items: center;
     justify-content: center;
-    width: 100%;
   }
+
   .card {
     width: 90%;
-    min-width: 290px;
+    min-width: 260px;
   }
 }
 
@@ -159,19 +153,3 @@
   -ms-transform: scale(15);
   transform: scale(15);
 }
-
-/* .card_a:nth-child(1n) .background {
-  background-color: #f9b234;
-}
-.card_a:nth-child(2n) .background {
-  background-color: #ea7044;
-}
-.card_a:nth-child(3n) .background {
-  background-color: #952aff;
-}
-.card_a:nth-child(4n) .background {
-  background-color: #cd3e94;
-}
-.card_a:nth-child(5n) .background {
-  background-color: #4c49ea;
-} */

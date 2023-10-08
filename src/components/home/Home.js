@@ -1,7 +1,12 @@
 import React from "react";
 import "./home.css";
 import TypingEffect from "../../utility/typewriter";
-import { GithubIcon, LinkedInIcon, MailIcon } from "../../utility/avtaricons";
+import {
+  GithubIcon,
+  LeetcodeIcon,
+  LinkedInIcon,
+  MailIcon,
+} from "../../utility/avtaricons";
 
 import dp from "../../assets/images/divyanshu verma.jpg";
 
@@ -17,11 +22,30 @@ const Home = () => {
           <TypingEffect />
         </div>
         <div className="contact_icons">
-          <a href="https://www.google.com/" target="_blank" rel="noreferrer">
+          <a
+            href="https://linkedin.com/in/divyanshuan"
+            target="_blank"
+            rel="noreferrer"
+          >
             <LinkedInIcon />
           </a>
-          <MailIcon />
-          <GithubIcon />
+          <a href="mailto:divyanshuvermaji@gmail.com">
+            <MailIcon />
+          </a>
+          <a
+            href="https://github.com/divyanshuan"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <GithubIcon />
+          </a>
+          <a
+            href="https://leetcode.com/divyanshuan/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <LeetcodeIcon />
+          </a>
         </div>
       </div>
       <div className="image_sec">
