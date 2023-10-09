@@ -57,6 +57,7 @@
 
 @media (max-width: 749px) and (min-width: 500px) {
   .contact_main {
+    height: auto;
     flex-direction: column-reverse;
     padding: 2.5rem;
     gap: 20px;

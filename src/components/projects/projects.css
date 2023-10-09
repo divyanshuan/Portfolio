@@ -73,6 +73,9 @@
 }
 
 @media (max-width: 1165px) and (min-width: 1115px) {
+  .Project_main {
+    height: auto;
+  }
   .card_sec {
     width: 70%;
     justify-content: center;
@@ -87,6 +90,7 @@
     padding: 3.5rem;
     flex-direction: column-reverse;
     gap: 10px;
+    height: auto;
   }
   .Project_main img {
     display: none;
@@ -108,6 +112,7 @@
   .Project_main {
     flex-direction: column-reverse;
     gap: 10px;
+    height: auto;
   }
   .card_sec {
     width: 100%;
@@ -121,6 +126,7 @@
   }
   .Project_main {
     padding: 2.5rem;
+    height: auto;
   }
   .card_sec {
     width: 100%;

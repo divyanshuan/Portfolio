@@ -75,7 +75,7 @@
 
 @media (max-width: 800px) and (min-width: 750px) {
   .main_experience {
-    height: 100vh;
+    height: auto;
     padding: 3.5rem;
   }
 }

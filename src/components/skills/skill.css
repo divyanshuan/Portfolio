@@ -73,12 +73,13 @@
 @media (max-width: 800px) and (min-width: 630px) {
   .main_skill_body {
     padding: 3.5rem;
+    height: auto;
   }
 }
 
 @media (max-width: 629px) and (min-width: 200px) {
   .main_skill_body {
     padding: 2.5rem;
+    height: auto;
   }
 }
-
