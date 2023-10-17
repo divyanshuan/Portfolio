@@ -13,10 +13,22 @@
       "liveprojectlink": "https://ssteps-cuh-2022.web.app/"
     },
     {
-      "heading": "guess the number",
-      "description": "This is a simple game made with HTML, CSS and Javascript. simple webpage with intrective gaming   ",
-      "githublink": "https://github.com/divyanshuan/Guess-the-number",
-      "liveprojectlink": "https://divyanshuan.github.io/Guess-the-number/"
+      "heading": "International Conference",
+      "description": "Our project aims to create a user-friendly website for international conferences, featuring easy registration, event schedules, speaker profiles, and downloadable resources. This platform will enhance the conference experience for attendees and simplify event management for organizers.",
+      "githublink": "https://github.com/divyanshuan/ICICAI_2023",
+      "liveprojectlink": "https://main--cheerful-phoenix-b8bccb.netlify.app/"
+    },
+    {
+      "heading": "Electro Tab",
+      "description": "ElectroTab is a Chrome extension that transforms the way users interact with their web browser, offering an optimized new tab page for enhanced productivity. This extension simplifies multitasking by providing a unified interface for frequently visited websites, allowing users to access their favorite sites, apps, and tools instantly. With features like customizable layouts, a smart search bar, and drag-and-drop organization, ElectroTab ensures a seamless and efficient web browsing experience, reducing the need to manage multiple tabs and windows.",
+      "githublink": "https://github.com/divyanshuan/Electro-Tab",
+      "liveprojectlink": ""
+    },
+    {
+      "heading": "Password Manager",
+      "description": "Our password manager is a secure and user-friendly solution that enables users to store, update, retrieve, and delete their passwords effortlessly. With a focus on both security and convenience, it offers a reliable way to manage sensitive login information for various accounts, enhancing digital security and streamlining online access.",
+      "githublink": "https://github.com/divyanshuan/password",
+      "liveprojectlink": "https://password.mrverma.tech/"
     },
     {
       "heading": "The Pig Game",
