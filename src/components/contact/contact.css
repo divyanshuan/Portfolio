@@ -1,0 +1,95 @@
+.contact_main {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  padding: 5rem;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.contact_us_form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  gap: 10px;
+  text-align: center;
+  align-items: center;
+}
+.contact_us_form > h2 {
+  width: 100%;
+  text-align: left;
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+  text-transform: capitalize;
+}
+.contact_us_form > form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.contact_us_form > button {
+  width: 30%;
+}
+.contact_image_sec {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.contact_image_sec h1 {
+  text-align: center;
+  font-size: 50px;
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+}
+.contact_image_sec img {
+  width: 60%;
+}
+
+@media (max-width: 800px) and (min-width: 750px) {
+  .contact_main {
+    height: auto;
+    padding: 3.5rem;
+  }
+}
+
+@media (max-width: 749px) and (min-width: 500px) {
+  .contact_main {
+    height: auto;
+    flex-direction: column-reverse;
+    padding: 2.5rem;
+    gap: 20px;
+  }
+  .contact_image_sec img {
+    display: none;
+  }
+  .contact_us_form {
+    width: 80%;
+  }
+}
+@media (max-width: 500px) and (min-width: 200px) {
+  .contact_main {
+    height: auto;
+    flex-direction: column-reverse;
+    padding: 1.5rem;
+    gap: 20px;
+  }
+  .contact_image_sec {
+    width: 100%;
+  }
+  .contact_image_sec h1 {
+    text-align: center;
+    width: 100%;
+  }
+  .contact_image_sec img {
+    display: none;
+  }
+  .contact_us_form > h2 {
+    text-align: center;
+  }
+  .contact_us_form {
+    width: 90%;
+  }
+}

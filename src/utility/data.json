@@ -1,0 +1,47 @@
+{
+  "projectdetail": [
+    {
+      "heading": "Cuh Placement Cell",
+      "description": "This is a Full Stack WebApp. It includes React, Redux, React-Bootstrap, Material UI, Django. In this project new opportunity is posted by co-ordinator for the students. ",
+      "githublink": "https://github.com/divyanshuan/cuh-placement-cell",
+      "liveprojectlink": ""
+    },
+    {
+      "heading": "Mystudents",
+      "description": "Branch managers gain direct access to their branch's data, enabling autonomous student info updates and administrative control.. The app centrally stores student data across branches, eliminating duplication and ensuring accurate records. Enabling smooth fee management, the system stores student fees, allowing branch managers to input, track due dates, and monitor payments for effective financial control.",
+      "githublink": "https://github.com/divyanshuan/mystudent-frontend",
+      "liveprojectlink": "https://ssteps-cuh-2022.web.app/"
+    },
+    {
+      "heading": "International Conference",
+      "description": "Our project aims to create a user-friendly website for international conferences, featuring easy registration, event schedules, speaker profiles, and downloadable resources. This platform will enhance the conference experience for attendees and simplify event management for organizers.",
+      "githublink": "https://github.com/divyanshuan/ICICAI_2023",
+      "liveprojectlink": "https://main--cheerful-phoenix-b8bccb.netlify.app/"
+    },
+    {
+      "heading": "Electro Tab",
+      "description": "ElectroTab is a Chrome extension that transforms the way users interact with their web browser, offering an optimized new tab page for enhanced productivity. This extension simplifies multitasking by providing a unified interface for frequently visited websites, allowing users to access their favorite sites, apps, and tools instantly. With features like customizable layouts, a smart search bar, and drag-and-drop organization, ElectroTab ensures a seamless and efficient web browsing experience, reducing the need to manage multiple tabs and windows.",
+      "githublink": "https://github.com/divyanshuan/Electro-Tab",
+      "liveprojectlink": ""
+    },
+    {
+      "heading": "Password Manager",
+      "description": "Our password manager is a secure and user-friendly solution that enables users to store, update, retrieve, and delete their passwords effortlessly. With a focus on both security and convenience, it offers a reliable way to manage sensitive login information for various accounts, enhancing digital security and streamlining online access.",
+      "githublink": "https://github.com/divyanshuan/password",
+      "liveprojectlink": "https://password.mrverma.tech/"
+    },
+    {
+      "heading": "The Pig Game",
+      "description": "This is version 2  of famous simple game made with HTML, CSS and Javascript.",
+      "githublink": "https://github.com/divyanshuan/the-pig-game",
+      "liveprojectlink": "https://the-pig-game-new.netlify.app/"
+    }
+  ],
+  "experiencedetail": [
+    {
+      "companyname": "Sirom Pvt. Ltd. - Pune",
+      "description": "TECH STACK - LARAVEL , PHP , JAVASCRIPT , SQL , HTML  ",
+      "duration": " 2 months (04/23 - 07/23)"
+    }
+  ]
+}

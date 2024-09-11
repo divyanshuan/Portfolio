@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+.main_experience {
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  padding: 5rem;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.exp_img_sec {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.exp_detail_sec {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+.exp_img_sec h1 {
+  text-align: center;
+  font-size: 50px;
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+}
+.exp_img_sec img {
+  width: 40%;
+}
+.exp_card {
+  height: 160px;
+  width: 380px;
+  padding: 1rem;
+  border-radius: 5px;
+  font-family: "Roboto", sans-serif;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: hidden;
+  position: relative;
+}
+.exp_card_head h2 {
+  font-weight: bolder;
+  line-height: 1.5;
+  font-family: "Roboto", sans-serif;
+}
+.exp_bacground {
+  height: 128px;
+  width: 128px;
+  z-index: 1;
+  position: absolute;
+  top: -120px;
+  right: -120px;
+  border-radius: 50%;
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  background-color: #9c9c9c8c;
+}
+.exp_card:hover .exp_bacground {
+  -webkit-transform: scale(15);
+  -ms-transform: scale(15);
+  transform: scale(15);
+}
+
+@media (max-width: 800px) and (min-width: 750px) {
+  .main_experience {
+    height: auto;
+    padding: 3.5rem;
+  }
+}
+
+@media (max-width: 749px) and (min-width: 280px) {
+  .main_experience {
+    height: auto;
+    flex-direction: column;
+    padding: 2.5rem;
+    gap: 20px;
+  }
+  .exp_img_sec img {
+    display: none;
+  }
+  .exp_detail_sec {
+    width: 100%;
+  }
+  .exp_card {
+    height: 160px;
+    width: 100%;
+    padding: 1rem;
+    border-radius: 5px;
+    font-family: "Roboto", sans-serif;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+      rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden;
+    position: relative;
+  }
+}

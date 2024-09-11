@@ -1,0 +1,161 @@
+.card {
+  height: 350px;
+  width: 290px;
+  padding: 1rem;
+  border-radius: 5px;
+  font-family: "Roboto", sans-serif;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: hidden;
+  position: relative;
+}
+.card h2 {
+  font-size: 2rem;
+  line-height: 1.5;
+  text-transform: capitalize;
+  z-index: 2;
+}
+.card p {
+  line-height: 1.2;
+  font-size: 1.1rem;
+  overflow: scroll;
+  margin-bottom: 1rem;
+  z-index: 2;
+}
+.button_sec {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  z-index: 2;
+}
+
+.Project_main {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  padding: 5rem;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.project_image_sec {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.project_image_sec h1 {
+  text-align: center;
+  font-size: 50px;
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+}
+
+.Project_main img {
+  width: 80%;
+}
+.card_sec {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: left;
+  gap: 20px;
+}
+
+@media (max-width: 1165px) and (min-width: 1115px) {
+  .Project_main {
+    height: auto;
+  }
+  .card_sec {
+    width: 70%;
+    justify-content: center;
+  }
+  .project_image_sec {
+    width: 30%;
+  }
+}
+
+@media (max-width: 1114px) and (min-width: 751px) {
+  .Project_main {
+    padding: 3.5rem;
+    flex-direction: column-reverse;
+    gap: 10px;
+    height: auto;
+  }
+  .Project_main img {
+    display: none;
+  }
+  .card_sec {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .project_image_sec {
+    width: 100%;
+  }
+  .card {
+    width: 40%;
+    min-width: 290px;
+  }
+}
+@media (max-width: 879px) {
+  .Project_main {
+    flex-direction: column-reverse;
+    gap: 10px;
+    height: auto;
+  }
+  .card_sec {
+    width: 100%;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 750px) and (min-width: 200px) {
+  .Project_main img {
+    display: none;
+  }
+  .Project_main {
+    padding: 2.5rem;
+    height: auto;
+  }
+  .card_sec {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .card {
+    width: 90%;
+    min-width: 260px;
+  }
+}
+
+.background {
+  height: 128px;
+  width: 128px;
+  z-index: 1;
+  position: absolute;
+  top: -120px;
+  right: -120px;
+  border-radius: 50%;
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  background-color: #9c9c9c8c;
+}
+.card:hover .background {
+  -webkit-transform: scale(15);
+  -ms-transform: scale(15);
+  transform: scale(15);
+}

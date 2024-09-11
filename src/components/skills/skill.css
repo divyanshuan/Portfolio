@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+.main_skill_body {
+  height: 100vh;
+  padding: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.skill_image {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.skill_image h1 {
+  text-align: center;
+  font-size: 50px;
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+}
+.skill_image img {
+  width: 70%;
+}
+.skill_main_content {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+.skill_part h1 {
+  margin-top: 20px;
+  line-height: 55px;
+  width: 100%;
+  font-size: 30px;
+  font-weight: 800;
+  text-align: right;
+  font-family: "Roboto", sans-serif;
+}
+.skill_main_content .skill_logo {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: right;
+}
+
+@media (max-width: 700px) {
+  .skill_image img {
+    display: none;
+  }
+  .skill_image h1 {
+    font-size: 50px;
+  }
+  .main_skill_body {
+    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+  }
+  .skill_main_content {
+    width: 100%;
+  }
+  .skill_part h1 {
+    width: 100%;
+    text-align: center;
+  }
+  .skill_main_content .skill_logo {
+    justify-content: center;
+  }
+}
+@media (max-width: 800px) and (min-width: 630px) {
+  .main_skill_body {
+    padding: 3.5rem;
+    height: auto;
+  }
+}
+
+@media (max-width: 629px) and (min-width: 200px) {
+  .main_skill_body {
+    padding: 2.5rem;
+    height: auto;
+  }
+}
