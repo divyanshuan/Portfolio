@@ -40,6 +40,7 @@ const Skill = () => {
             <CplusplusIcon />
             <HtmlIcon />
             <CssIcon />
+            <LaravelIcon />
           </div>
         </div>
 
